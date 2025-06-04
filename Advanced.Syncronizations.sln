@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task01.Barrier", "Task01.Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task01.Barrier.Cancellation", "Task01.Barrier.Cancellation\Task01.Barrier.Cancellation.csproj", "{3F15A2C4-0BF3-49C5-9965-739374F0D33A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task09.InterlockedAdd", "Task09.InterlockedAdd\Task09.InterlockedAdd.csproj", "{9CEE892F-FCC4-4B5B-8AD4-955DCC38500B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3F15A2C4-0BF3-49C5-9965-739374F0D33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F15A2C4-0BF3-49C5-9965-739374F0D33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F15A2C4-0BF3-49C5-9965-739374F0D33A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CEE892F-FCC4-4B5B-8AD4-955DCC38500B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CEE892F-FCC4-4B5B-8AD4-955DCC38500B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CEE892F-FCC4-4B5B-8AD4-955DCC38500B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CEE892F-FCC4-4B5B-8AD4-955DCC38500B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
