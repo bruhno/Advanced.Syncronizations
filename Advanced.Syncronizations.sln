@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task01.Barrier.Cancellation
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task09.InterlockedAdd", "Task09.InterlockedAdd\Task09.InterlockedAdd.csproj", "{9CEE892F-FCC4-4B5B-8AD4-955DCC38500B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task10.Initialization", "Task10.Initialization\Task10.Initialization.csproj", "{C6E478CB-ECD4-4EFA-9642-8A71359F9C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task11.SpinLock", "Task11.SpinLock\Task11.SpinLock.csproj", "{141A7604-4956-4FA2-81F5-9B0076F98E0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{9CEE892F-FCC4-4B5B-8AD4-955DCC38500B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CEE892F-FCC4-4B5B-8AD4-955DCC38500B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CEE892F-FCC4-4B5B-8AD4-955DCC38500B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6E478CB-ECD4-4EFA-9642-8A71359F9C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E478CB-ECD4-4EFA-9642-8A71359F9C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E478CB-ECD4-4EFA-9642-8A71359F9C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E478CB-ECD4-4EFA-9642-8A71359F9C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{141A7604-4956-4FA2-81F5-9B0076F98E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141A7604-4956-4FA2-81F5-9B0076F98E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141A7604-4956-4FA2-81F5-9B0076F98E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141A7604-4956-4FA2-81F5-9B0076F98E0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
