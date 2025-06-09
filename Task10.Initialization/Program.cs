@@ -1,30 +1,23 @@
 ﻿var value = -1;
+var initialized = false;
 
-Parallel.For(1, 101, Init);
+Parallel.For(1, 1001, Init);
 
 Console.WriteLine($"Final value: {value}");
 
 void Init(int x)
 {
-
-    var newValue = CalcValue(x);
-
-    var original = Interlocked.Exchange(ref value, newValue);
-
-    if (original == -1)
+    var newValue = CalcValue(x);   
+    
+    if (!Interlocked.Exchange(ref initialized, true))
     {
+        value = newValue;
         Console.WriteLine($"Initialized: {newValue}");
-        return;
-    };
-
-    while (original != Interlocked.Exchange(ref value, original)) { }
-
-    //Console.WriteLine($"Initialized: {newValue}, original {original}");
-
+    }
 }
 
 int CalcValue(int x)
 {
-    Thread.Sleep(10);
+    Thread.Sleep(50);
     return x;
 }
