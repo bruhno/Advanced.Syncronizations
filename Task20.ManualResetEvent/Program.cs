@@ -1,5 +1,6 @@
 ﻿// Ожидание события множеством обработчиков
-var re = new ManualResetEvent(false);
+//var re = new ManualResetEvent(false);
+var re = new ManualResetEventSlim(false);
 
 _ = Task.Run(Prepare);
 
@@ -14,7 +15,8 @@ void Prepare()
 
 void Handle(int num)
 {
-    re.WaitOne();
+    //re.WaitOne();
+    re.Wait();
     Thread.Sleep(200);
     Console.WriteLine($"{num} done");
 }
