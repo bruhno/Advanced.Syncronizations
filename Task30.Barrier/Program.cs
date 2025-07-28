@@ -1,11 +1,8 @@
-﻿
-var N = 4;
+﻿var N = 4;
 
 var random = new Random();
 
 var arr = new int[N];
-
-
 
 var barrier = new Barrier(N, b =>
 {
@@ -17,10 +14,7 @@ var barrier = new Barrier(N, b =>
     Console.WriteLine($"After {phase} average = {avg}, max = {max}");
 });
 
-
-
 var tasks = Enumerable.Range(1, 4).Select(i => Task.Run(() => Work(i))).ToList();
-
 
 Task.WaitAll(tasks);
 
