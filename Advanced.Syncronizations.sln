@@ -45,6 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task30.Barrier", "Task30.Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task32.AsyncManualResetEvent", "Task32.AsyncManualResetEvent\Task32.AsyncManualResetEvent.csproj", "{C7E3F8A9-E6DF-4D0A-A3E4-CF5559240B38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task33.BuiltInAsyncPrimitives", "Task33.BuiltInAsyncPrimitives\Task33.BuiltInAsyncPrimitives.csproj", "{E6D632C2-3423-48AD-911F-E316C9B686C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task35.AsyncBarrier.cs", "Task35.AsyncBarrier.cs\Task35.AsyncBarrier.cs.csproj", "{64644634-FD84-451E-8F41-1AA014D08AEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,14 @@ Global
 		{C7E3F8A9-E6DF-4D0A-A3E4-CF5559240B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7E3F8A9-E6DF-4D0A-A3E4-CF5559240B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7E3F8A9-E6DF-4D0A-A3E4-CF5559240B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6D632C2-3423-48AD-911F-E316C9B686C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D632C2-3423-48AD-911F-E316C9B686C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D632C2-3423-48AD-911F-E316C9B686C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D632C2-3423-48AD-911F-E316C9B686C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64644634-FD84-451E-8F41-1AA014D08AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64644634-FD84-451E-8F41-1AA014D08AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64644634-FD84-451E-8F41-1AA014D08AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64644634-FD84-451E-8F41-1AA014D08AEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
