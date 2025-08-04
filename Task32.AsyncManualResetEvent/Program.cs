@@ -52,6 +52,8 @@ class MyManualResetEvent
     {
         var tcs = _tcs;
 
+        // как без проверки результата сообщать результат несколько раз.
+
         _ = tcs.TrySetResult();
     }
 

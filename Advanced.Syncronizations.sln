@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task33.BuiltInAsyncPrimitiv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task35.AsyncBarrier.cs", "Task35.AsyncBarrier.cs\Task35.AsyncBarrier.cs.csproj", "{64644634-FD84-451E-8F41-1AA014D08AEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task99.PulseAll", "Task99.PulseAll\Task99.PulseAll.csproj", "{F60A3E9A-F9E4-40D2-9525-348345606060}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{64644634-FD84-451E-8F41-1AA014D08AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64644634-FD84-451E-8F41-1AA014D08AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64644634-FD84-451E-8F41-1AA014D08AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F60A3E9A-F9E4-40D2-9525-348345606060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60A3E9A-F9E4-40D2-9525-348345606060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60A3E9A-F9E4-40D2-9525-348345606060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60A3E9A-F9E4-40D2-9525-348345606060}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
