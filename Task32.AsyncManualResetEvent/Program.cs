@@ -7,6 +7,7 @@ await Task.Delay(1000);
 
 Console.WriteLine(".....................Set");
 mre.Set();
+mre.Set();
 
 mre.Reset();
 
@@ -51,10 +52,7 @@ class MyManualResetEvent
     {
         var tcs = _tcs;
 
-        if (!tcs.Task.IsCompleted)
-        {
-            tcs.SetResult();
-        }
+        _ = tcs.TrySetResult();
     }
 
     public void Reset()
